@@ -14,6 +14,7 @@ public class GestionVida : MonoBehaviour
 
     public void tocado(float fuerza)
     {
+        vida -= fuerza; // Subtract damage
         heSidoTocado.Invoke();
         if (vida <= 0.0f)
         {
