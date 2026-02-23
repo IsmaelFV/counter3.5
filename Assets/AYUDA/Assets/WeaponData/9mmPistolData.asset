@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283e7d52b8034cf48a26481c91b7bf73, type: 3}
+  m_Name: 9mmPistolData
+  m_EditorClassIdentifier: 
+  weaponName: Pistola 9mm
+  weaponIcon: {fileID: 21300000, guid: 5b4ba02e29433c74bb46bc2eb449ee98, type: 3}
+  damage: 30
+  fireRate: 0.3
+  maxRange: 50
+  maxAmmoInMagazine: 15
+  maxReserveAmmo: 105
+  reloadTime: 2.1
+  isAutomatic: 0
+  fireMode: 0
+  pelletsPerShot: 8
+  pelletSpreadAngle: 8
+  pelletDamage: 0
+  burstCount: 3
+  burstInterval: 0.06
+  baseSpread: 0.5
+  maxSpread: 3
+  spreadPerShot: 0.8
+  spreadRecoverySpeed: 8
+  movingSpreadMultiplier: 1.3
+  airSpreadMultiplier: 2
+  canPenetrate: 0
+  maxPenetrations: 1
+  penetrationDamageRetention: 0.5
+  enableDamageFalloff: 1
+  falloffStartDistance: 15
+  minDamageMultiplier: 0.4
+  recoilAmount: 1
+  showBulletTracer: 1
+  tracerColor: {r: 1, g: 0.9, b: 0.5, a: 0.8}
+  tracerSpeed: 400
+  shootSound: {fileID: 8300000, guid: 00efa9631c76f1341a2dafeeecff2c5a, type: 3}
+  reloadSound: {fileID: 8300000, guid: 440062460f3368545a5a1f660a3e3d51, type: 3}
+  emptySound: {fileID: 8300000, guid: 091f5b8744c50e84a89277e6fb39c106, type: 3}
+  reloadDirectionMultiplier: -1
+  upgradeCost1: 2500
+  upgradeCost2: 6000

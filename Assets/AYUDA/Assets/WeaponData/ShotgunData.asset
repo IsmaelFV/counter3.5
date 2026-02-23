@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283e7d52b8034cf48a26481c91b7bf73, type: 3}
+  m_Name: ShotgunData
+  m_EditorClassIdentifier: 
+  weaponName: Escopeta de Corredera
+  weaponIcon: {fileID: 21300000, guid: c246422638210fc45b2dfd6c52762ccc, type: 3}
+  damage: 25
+  fireRate: 0.75
+  maxRange: 100
+  maxAmmoInMagazine: 6
+  maxReserveAmmo: 42
+  reloadTime: 2.75
+  isAutomatic: 0
+  fireMode: 2
+  pelletsPerShot: 6
+  pelletSpreadAngle: 8
+  pelletDamage: 17
+  burstCount: 3
+  burstInterval: 0.06
+  baseSpread: 1
+  maxSpread: 5
+  spreadPerShot: 0.5
+  spreadRecoverySpeed: 5
+  movingSpreadMultiplier: 1.5
+  airSpreadMultiplier: 2.5
+  canPenetrate: 0
+  maxPenetrations: 1
+  penetrationDamageRetention: 0.5
+  enableDamageFalloff: 1
+  falloffStartDistance: 20
+  minDamageMultiplier: 0.3
+  recoilAmount: 1
+  showBulletTracer: 1
+  tracerColor: {r: 1, g: 0.9, b: 0.5, a: 0.8}
+  tracerSpeed: 300
+  shootSound: {fileID: 8300000, guid: cd706a41287ab664b9cb712f983d97cd, type: 3}
+  reloadSound: {fileID: 8300000, guid: 53ca514a2e8549244b6e0ccd8ecc9180, type: 3}
+  emptySound: {fileID: 8300000, guid: cefdf1b8d6a600742976fab63560c2be, type: 3}
+  reloadDirectionMultiplier: 0
+  upgradeCost1: 2500
+  upgradeCost2: 6000
